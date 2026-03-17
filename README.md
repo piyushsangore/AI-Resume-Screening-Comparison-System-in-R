@@ -1,169 +1,181 @@
-# AI Resume Screening & Comparison System in R
+# 🚀 AI Resume Screening & Comparison System in R
 
-An end-to-end AI-powered Resume Screening and Comparison System built using R, Machine Learning (XGBoost), and NLP techniques. This system automates resume classification and intelligently ranks candidates based on their relevance to a job description.
+An end-to-end **AI-powered Resume Screening and Comparison System** built using **R**, integrating **Machine Learning (XGBoost)** and **Natural Language Processing (NLP)** techniques to automate resume classification and rank candidates based on job relevance.
 
-📌 Project Overview
+---
 
-Modern recruitment involves processing hundreds of resumes for a single job role, which is:
+## 📌 Overview
 
-⏱️ Time-consuming
+Recruitment processes today involve handling a large number of resumes, making manual screening inefficient, inconsistent, and prone to bias. This system provides an automated and scalable solution that:
 
-⚠️ Prone to human bias
+- Classifies resumes into predefined job roles  
+- Matches resumes against job descriptions  
+- Ranks candidates based on semantic similarity  
+- Provides real-time results via an interactive interface  
 
-❌ Inconsistent
+The system is deployed using a **Shiny web application**, enabling easy usage for both technical and non-technical users.
 
-This project addresses these challenges by building an intelligent system that:
+---
 
-Classifies resumes into job roles
+## 🎯 Objectives
 
-Compares resumes against job descriptions
+- Automate resume screening using machine learning  
+- Apply NLP techniques for structured text processing  
+- Implement similarity-based resume ranking  
+- Build an interactive user interface  
+- Enable real-time prediction and analysis  
 
-Ranks candidates using similarity scoring
+---
 
-The system is deployed using an interactive Shiny web application for real-time usage.
+## 🧠 System Architecture
 
-🎯 Objectives
 
-Automate resume screening using machine learning
-
-Apply NLP techniques for text preprocessing
-
-Classify resumes using XGBoost model
-
-Compare resumes using Cosine Similarity
-
-Provide a user-friendly interface for recruiters
-
-⚙️ Tech Stack
-Category	Technologies
-Language	R
-Machine Learning	XGBoost
-NLP	tm, text2vec, textstem
-Data Handling	dplyr, Matrix
-Web Framework	Shiny
-Visualization	Confusion Matrix, Accuracy Plot
-🧠 System Workflow
 Resume Input
-     ↓
+↓
 Text Preprocessing
-     ↓
+↓
 TF-IDF Vectorization
-     ↓
-XGBoost Model
-     ↓
-Predicted Job Category
+↓
+XGBoost Model (Classification)
+↓
+Predicted Category
 
 Comparison Module:
-Resume + Job Description → Cosine Similarity → Ranking
-🔍 Key Features
 
-✅ Resume classification into predefined job roles
-✅ NLP-based preprocessing (cleaning, tokenization, lemmatization)
-✅ TF-IDF vectorization for feature extraction
-✅ Multi-resume comparison using cosine similarity
-✅ Ranking resumes based on job relevance
-✅ Interactive Shiny-based UI
-✅ Real-time prediction and visualization
-
-📂 Project Structure
-📁 AI-Resume-Screening-Comparison-System-in-R
-│
-├── app.R                         # Main Shiny Application
-├── model_training.R              # Model training script
-├── resume_screening_model.rds    # Trained XGBoost model
-├── vectorizer.rds                # TF-IDF vectorizer
-├── gpt_dataset.csv               # Dataset used for training
-├── confusion_matrix.png          # Model evaluation image
-├── accuracy_plot.png             # Training performance graph
-├── README.md                     # Project documentation
-📊 Model Details
-
-Algorithm: XGBoost (Gradient Boosting Trees)
-
-Feature Extraction: TF-IDF
-
-Preprocessing:
-
-Lowercasing
-
-Stopword removal
-
-Punctuation & number removal
-
-Lemmatization
-
-📈 Performance
-
-Accuracy: ~99%
-
-High precision and recall across categories
-
-Minor overlap in similar roles (e.g., backend vs cloud)
-
-🖥️ Application Modules
-🔹 1. Resume Screening
-
-Upload resume (.txt / .csv)
-
-System preprocesses and vectorizes text
-
-Predicts job category using trained model
-
-🔹 2. Resume Comparison
-
-Upload multiple resumes
-
-Enter job description
-
-System computes cosine similarity
-
-Displays ranked resumes
-
-Highlights best candidate
-
-📊 Visual Outputs
-
-Confusion Matrix (classification performance)
-
-Accuracy & Loss Graph (training behavior)
-
-Ranked Resume Table (comparison results)
-
-🧪 Core Concepts Used
-
-Natural Language Processing (NLP)
-
-TF-IDF Vectorization
-
-Gradient Boosting (XGBoost)
-
+Resume + Job Description
+↓
+TF-IDF Representation
+↓
 Cosine Similarity
+↓
+Resume Ranking
 
-Sparse Matrix Representation
 
-Supervised Machine Learning
+---
 
-▶️ Installation & Setup
-1️⃣ Clone the Repository
+## ⚙️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| Language | R |
+| Machine Learning | XGBoost |
+| NLP | tm, text2vec, textstem |
+| Data Processing | dplyr, Matrix |
+| Web Framework | Shiny |
+| Visualization | Confusion Matrix, Accuracy Graph |
+
+---
+
+## 🔍 Key Features
+
+- Resume classification using **XGBoost**
+- Text preprocessing (cleaning, tokenization, lemmatization)
+- Feature extraction using **TF-IDF**
+- Resume-to-job matching using **cosine similarity**
+- Ranking of multiple resumes based on relevance
+- Interactive UI using **Shiny**
+- Real-time prediction and comparison
+
+---
+
+## 📂 Project Structure
+
+
+AI-Resume-Screening-Comparison-System-in-R/
+│
+├── app.R
+├── model_training.R
+├── resume_screening_model.rds
+├── vectorizer.rds
+├── gpt_dataset.csv
+├── confusion_matrix.png
+├── accuracy_plot.png
+├── README.md
+
+
+---
+
+## 📊 Model Details
+
+- **Algorithm:** XGBoost (Gradient Boosting Trees)
+- **Feature Engineering:** TF-IDF Vectorization
+- **Preprocessing Steps:**
+  - Lowercasing
+  - Stopword removal
+  - Punctuation removal
+  - Number removal
+  - Lemmatization
+
+### 📈 Performance
+
+- Accuracy: ~99%
+- High precision, recall, and F1-score
+- Robust classification across multiple job categories
+
+---
+
+## 🖥️ Application Modules
+
+### 🔹 Resume Classification
+- Upload resume (.txt / .csv)
+- System preprocesses and vectorizes text
+- Predicts job category using trained model
+
+### 🔹 Resume Comparison
+- Upload multiple resumes
+- Enter job description
+- Computes cosine similarity
+- Displays ranked resumes
+- Highlights best candidate
+
+---
+
+## 📊 Visual Outputs
+
+- Confusion Matrix (Model Performance)
+- Accuracy and Loss Graph
+- Ranked Resume Comparison Table
+
+---
+
+## 🧪 Core Concepts
+
+- Natural Language Processing (NLP)
+- TF-IDF (Term Frequency–Inverse Document Frequency)
+- Gradient Boosting (XGBoost)
+- Cosine Similarity
+- Sparse Matrix Representation
+- Supervised Machine Learning
+
+---
+
+## ▶️ Installation & Setup
+
+### 1. Clone the Repository
+
 git clone https://github.com/piyushsangore/AI-Resume-Screening-Comparison-System-in-R.git
 cd AI-Resume-Screening-Comparison-System-in-R
-2️⃣ Install Required Packages
+
+2. Install Required Packages
+   
 install.packages(c("shiny", "tm", "text2vec", "xgboost", "textstem", "dplyr", "Matrix"))
-3️⃣ Run the Application
+
+4. Run the Application
 shiny::runApp()
-🚀 Future Scope
 
-Multilingual resume support
+##🚀 Future Scope
 
-Integration with job portals
+Multilingual resume processing
+
+Integration with job portals (LinkedIn, Naukri)
 
 Resume improvement suggestions
 
-Feedback-based model learning
+Feedback-driven model updates
 
 Deep learning-based semantic matching
 
-👨‍💻 Contributors
+##👨‍💻 Contributors
 
 Piyush Sangore
 
@@ -175,24 +187,27 @@ Ritik Kumar Singh
 
 Shyamsundar More
 
-🎓 Academic Context
+##🎓 Academic Context
 
-Developed as part of
+Developed under
 Computer Science and Engineering (Artificial Intelligence)
-at Vishwakarma Institute of Technology, Pune
+Vishwakarma Institute of Technology, Pune
 
-📬 Contact
+##📬 Contact
 
 GitHub: https://github.com/piyushsangore
 
-⭐ Support
+##⭐ Support
 
 If you found this project useful:
 
-⭐ Star the repository
+Star the repository
 
-🔁 Share with others
+Fork the project
 
-📜 License
+Share it
 
-This project is developed for academic and research purposes.
+
+##📜 License
+
+This project is intended for academic and research purposes.
