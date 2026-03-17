@@ -82,15 +82,16 @@ Resume Ranking
 
 
 AI-Resume-Screening-Comparison-System-in-R/
-- │
-- ├── app.R
-- ├── model_training.R
-- ├── resume_screening_model.rds
-- m├── vectorizer.rds
-- ├── gpt_dataset.csv
-- ├── confusion_matrix.png
-- ├── accuracy_plot.png
-- ├── README.md
+│
+├── app.R
+├── model_training.R
+├── resume_screening_model.rds
+├── vectorizer.rds
+├── gpt_dataset.csv
+├── confusion_matrix.png
+├── accuracy_plot.png
+├── README.md
+
 
 ---
 
@@ -131,20 +132,20 @@ AI-Resume-Screening-Comparison-System-in-R/
 
 ## 📊 Visual Outputs
 
-- Confusion Matrix (Model Performance)
-- Accuracy and Loss Graph
-- Ranked Resume Comparison Table
+- Confusion Matrix (Model Performance)  
+- Accuracy and Loss Graph  
+- Ranked Resume Comparison Table  
 
 ---
 
 ## 🧪 Core Concepts
 
-- Natural Language Processing (NLP)
-- TF-IDF (Term Frequency–Inverse Document Frequency)
-- Gradient Boosting (XGBoost)
-- Cosine Similarity
-- Sparse Matrix Representation
-- Supervised Machine Learning
+- Natural Language Processing (NLP)  
+- TF-IDF (Term Frequency–Inverse Document Frequency)  
+- Gradient Boosting (XGBoost)  
+- Cosine Similarity  
+- Sparse Matrix Representation  
+- Supervised Machine Learning  
 
 ---
 
@@ -152,18 +153,15 @@ AI-Resume-Screening-Comparison-System-in-R/
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/piyushsangore/AI-Resume-Screening-Comparison-System-in-R.git
 cd AI-Resume-Screening-Comparison-System-in-R
-
 2. Install Required Packages
-   
 install.packages(c("shiny", "tm", "text2vec", "xgboost", "textstem", "dplyr", "Matrix"))
-
-4. Run the Application
+3. Run the Application
 shiny::runApp()
----
 
-##🚀 Future Scope
+🚀 Future Scope
 
 Multilingual resume processing
 
@@ -174,9 +172,8 @@ Resume improvement suggestions
 Feedback-driven model updates
 
 Deep learning-based semantic matching
----
 
-##👨‍💻 Contributors
+👨‍💻 Contributors
 
 Piyush Sangore
 
@@ -187,20 +184,18 @@ Akash Shejul
 Ritik Kumar Singh
 
 Shyamsundar More
----
 
-##🎓 Academic Context
+🎓 Academic Context
+
 Developed under
 Computer Science and Engineering (Artificial Intelligence)
 Vishwakarma Institute of Technology, Pune
----
 
-##📬 Contact
+📬 Contact
 
 GitHub: https://github.com/piyushsangore
----
 
-##⭐ Support
+⭐ Support
 
 If you found this project useful:
 
@@ -209,9 +204,11 @@ Star the repository
 Fork the project
 
 Share it
----
 
-
-##📜 License
+📜 License
 
 This project is intended for academic and research purposes.
+
+
+---
+
