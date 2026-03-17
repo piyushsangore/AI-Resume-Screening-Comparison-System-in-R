@@ -164,7 +164,7 @@ shiny::runApp()
 
 ---
 
-##🚀 Future Scope
+## 🚀 Future Scope
 
 Multilingual resume processing
 
@@ -178,7 +178,7 @@ Deep learning-based semantic matching
 
 ---
 
-##👨‍💻 Contributors
+## 👨‍💻 Contributors
 
 Piyush Sangore
 
@@ -192,7 +192,7 @@ Shyamsundar More
 
 ---
 
-##🎓 Academic Context
+## 🎓 Academic Context
 
 Developed under
 Computer Science and Engineering (Artificial Intelligence)
@@ -200,13 +200,13 @@ Vishwakarma Institute of Technology, Pune
 
 ---
 
-##📬 Contact
+## 📬 Contact
 
 GitHub: https://github.com/piyushsangore
 
 ---
 
-##⭐ Support
+## ⭐ Support
 
 If you found this project useful:
 
