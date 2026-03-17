@@ -160,6 +160,7 @@ cd AI-Resume-Screening-Comparison-System-in-R
 install.packages(c("shiny", "tm", "text2vec", "xgboost", "textstem", "dplyr", "Matrix"))
 3. Run the Application
 shiny::runApp()
+```
 
 🚀 Future Scope
 
