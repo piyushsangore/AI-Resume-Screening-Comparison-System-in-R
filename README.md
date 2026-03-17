@@ -162,7 +162,7 @@ install.packages(c("shiny", "tm", "text2vec", "xgboost", "textstem", "dplyr", "M
 shiny::runApp()
 ```
 
-🚀 Future Scope
+##🚀 Future Scope
 
 Multilingual resume processing
 
@@ -174,7 +174,8 @@ Feedback-driven model updates
 
 Deep learning-based semantic matching
 
-👨‍💻 Contributors
+
+##👨‍💻 Contributors
 
 Piyush Sangore
 
@@ -186,17 +187,20 @@ Ritik Kumar Singh
 
 Shyamsundar More
 
-🎓 Academic Context
+
+##🎓 Academic Context
 
 Developed under
 Computer Science and Engineering (Artificial Intelligence)
 Vishwakarma Institute of Technology, Pune
 
-📬 Contact
+
+##📬 Contact
 
 GitHub: https://github.com/piyushsangore
 
-⭐ Support
+
+##⭐ Support
 
 If you found this project useful:
 
@@ -206,10 +210,10 @@ Fork the project
 
 Share it
 
-📜 License
+
+##📜 License
 
 This project is intended for academic and research purposes.
-
 
 ---
 
