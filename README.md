@@ -82,16 +82,15 @@ Resume Ranking
 
 
 AI-Resume-Screening-Comparison-System-in-R/
-│
-├── app.R
-├── model_training.R
-├── resume_screening_model.rds
-├── vectorizer.rds
-├── gpt_dataset.csv
-├── confusion_matrix.png
-├── accuracy_plot.png
-├── README.md
-
+- │
+- ├── app.R
+- ├── model_training.R
+- ├── resume_screening_model.rds
+- m├── vectorizer.rds
+- ├── gpt_dataset.csv
+- ├── confusion_matrix.png
+- ├── accuracy_plot.png
+- ├── README.md
 
 ---
 
@@ -162,7 +161,6 @@ install.packages(c("shiny", "tm", "text2vec", "xgboost", "textstem", "dplyr", "M
 
 4. Run the Application
 shiny::runApp()
-
 ---
 
 ##🚀 Future Scope
@@ -176,7 +174,6 @@ Resume improvement suggestions
 Feedback-driven model updates
 
 Deep learning-based semantic matching
-
 ---
 
 ##👨‍💻 Contributors
@@ -190,21 +187,17 @@ Akash Shejul
 Ritik Kumar Singh
 
 Shyamsundar More
-
-##🎓 Academic Context
-
 ---
 
+##🎓 Academic Context
 Developed under
 Computer Science and Engineering (Artificial Intelligence)
 Vishwakarma Institute of Technology, Pune
-
 ---
 
 ##📬 Contact
 
 GitHub: https://github.com/piyushsangore
-
 ---
 
 ##⭐ Support
@@ -216,6 +209,7 @@ Star the repository
 Fork the project
 
 Share it
+---
 
 
 ##📜 License
