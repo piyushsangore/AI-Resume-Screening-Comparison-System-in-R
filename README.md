@@ -163,6 +163,8 @@ install.packages(c("shiny", "tm", "text2vec", "xgboost", "textstem", "dplyr", "M
 4. Run the Application
 shiny::runApp()
 
+---
+
 ##🚀 Future Scope
 
 Multilingual resume processing
@@ -174,6 +176,8 @@ Resume improvement suggestions
 Feedback-driven model updates
 
 Deep learning-based semantic matching
+
+---
 
 ##👨‍💻 Contributors
 
@@ -189,13 +193,19 @@ Shyamsundar More
 
 ##🎓 Academic Context
 
+---
+
 Developed under
 Computer Science and Engineering (Artificial Intelligence)
 Vishwakarma Institute of Technology, Pune
 
+---
+
 ##📬 Contact
 
 GitHub: https://github.com/piyushsangore
+
+---
 
 ##⭐ Support
 
